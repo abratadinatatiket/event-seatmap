@@ -4,13 +4,14 @@ import SeatMap from './SeatMap';
 
 import seatCfg from './seats.json';
 
-import './index.scss'
-
 function App(){
 
   return (
       <div className="app">
-        <SeatMap config={seatCfg} onSeatClick={(obj)=> { alert(JSON.stringify(obj))}} />
+        <SeatMap
+            config={seatCfg}
+            onSeatClick={(obj)=> { alert(JSON.stringify(obj))}}
+        />
       </div>
   )
 }
