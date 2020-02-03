@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html --no-hmr"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +14,12 @@
     "sass": "^1.25.0"
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.1",
     "lodash.chunk": "^4.2.0",
     "lodash.random": "^3.2.0",
     "pixi.js": "^5.2.1",
-    "randomcolor": "^0.5.4"
+    "randomcolor": "^0.5.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }

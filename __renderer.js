@@ -1,6 +1,6 @@
+/*
 import * as PIXI from 'pixi.js';
 import randomColor from 'randomcolor';
-import random from 'lodash.random';
 import chunk from 'lodash.chunk';
 
 import './index.scss';
@@ -8,7 +8,7 @@ import './index.scss';
 const mainContainer = document.getElementById('container');
 
 const stage = new PIXI.Container();
-const renderer = PIXI.autoDetectRenderer(
+const __renderer = PIXI.autoDetectRenderer(
     {
       width: 4000,
       height: 4000,
@@ -16,7 +16,7 @@ const renderer = PIXI.autoDetectRenderer(
     }
 );
 
-mainContainer.appendChild(renderer.view);
+mainContainer.appendChild(__renderer.view);
 
 function createSquares(w = 100,h= 100){
   const arr = [];
@@ -56,6 +56,6 @@ function createSquares(w = 100,h= 100){
 
 createSquares(40, 40);
 
-renderer.render(stage);
-
+__renderer.render(stage);
+*/
 
