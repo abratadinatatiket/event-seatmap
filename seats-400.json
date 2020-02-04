@@ -1,0 +1,2042 @@
+[
+  [
+    {
+      "code": "A1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "A4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "A19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "B1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "B4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "B19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "C1-void-0",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-1",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-2",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-4",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-5",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-6",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-7",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-8",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-9",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-10",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-11",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-12",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-13",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-14",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-15",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-16",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-17",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-18",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "C1-void-19",
+      "status": "VOID",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "D1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "D4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D6",
+      "status": "RESERVED",
+      "businessId": null
+    },
+    {
+      "code": "D7",
+      "status": "RESERVED",
+      "businessId": null
+    },
+    {
+      "code": "D8",
+      "status": "RESERVED",
+      "businessId": null
+    },
+    {
+      "code": "D9",
+      "status": "RESERVED",
+      "businessId": null
+    },
+    {
+      "code": "D10",
+      "status": "RESERVED",
+      "businessId": null
+    },
+    {
+      "code": "D11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "D19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "E1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "E4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "E19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "F1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "F4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "F19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "G1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "G4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "G19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "H1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "H4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "H19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "I1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "I4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "I19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "J1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "J4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "J19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "K1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "K4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "K19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "L1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "L4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "L19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "M1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "M4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "M19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "N1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "N4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "N19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "O1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "O4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "O19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "P1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "P4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "P19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "Q1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "Q4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "Q19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "R1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "R4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "R19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "S1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "S4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "S19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ],
+  [
+    {
+      "code": "T1",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T2",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T3",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T4-void-3",
+      "status": "VOID",
+      "businessId": null
+    },
+    {
+      "code": "T4",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T5",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T6",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T7",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T8",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T9",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T10",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T11",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T12",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T13",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T14",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T15",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T16",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T17",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T18",
+      "status": "VACANT",
+      "businessId": null
+    },
+    {
+      "code": "T19",
+      "status": "VACANT",
+      "businessId": null
+    }
+  ]
+]

@@ -1,0 +1,12 @@
+.seatmap-modal{
+  background: white;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  // required
+  width: 800px;
+  height: 400px;
+}
