@@ -101,15 +101,12 @@ function drawBitmaps(obj) {
     const label = new PIXI.Text(obj.code, {
       fill: isReserved(obj) ? 0xffffff : 0x8a93a7,
       fontSize: 12,
-      dropShadow: true,
-      dropShadowAlpha: .1,
-      dropShadowDistance: 0,
       align: 'center'
     });
 
     label.position.set((SEAT_WIDTH - label.width) * 0.5, SEAT_HEIGHT - 24);
     sh.addChild(label);
-    sh.cacheAsBitmap = true;
+
   }
 
   return sh;
@@ -123,8 +120,11 @@ export default function renderSeatMap(canvas, grid = [], onSeatClick, useBitmapA
   // to avoid blurry text & lines
   PIXI.settings.ROUND_PIXELS = true;
 
-  const STAGE_WIDTH = (grid[0].length * SEAT_WIDTH) + (SEAT_SPACE * (grid[0].length  - 1));
-  const STAGE_HEIGHT = (grid.length * SEAT_HEIGHT) + (SEAT_SPACE * (grid.length - 1));
+  const COLS = grid[0].length;
+  const ROWS = grid.length;
+
+  const STAGE_WIDTH = ( COLS * SEAT_WIDTH) + (SEAT_SPACE * (COLS  - 1));
+  const STAGE_HEIGHT = ( ROWS * SEAT_HEIGHT) + (SEAT_SPACE * (ROWS - 1));
 
   const pixiapp = new PIXI.Application({
     width: STAGE_WIDTH ,
@@ -133,9 +133,26 @@ export default function renderSeatMap(canvas, grid = [], onSeatClick, useBitmapA
     transparent: true
   });
 
-  function createSeats() {
+  const seatContainer = new PIXI.Container();
+  seatContainer.width = STAGE_WIDTH;
+  seatContainer.height = STAGE_HEIGHT;
 
-    const seatContainer = new PIXI.Container();
+  const waitingLabel = new PIXI.Text(`Generating ${COLS * ROWS} seats...`,{
+    fill: PIXI.utils.string2hex('#aaaaaa'),
+    fontSize: 12,
+    align: 'center'
+  });
+  waitingLabel.position.set(20,20);
+  seatContainer.addChild(waitingLabel);
+
+  seatContainer.on('added', ()=>{
+    console.log('[renderSeatMap seatContainer added] ');
+    setTimeout(()=>{
+      createSeats();
+    }, 100);
+  });
+
+  function createSeats() {
 
     grid.forEach((row, i) => {
 
@@ -165,20 +182,17 @@ export default function renderSeatMap(canvas, grid = [], onSeatClick, useBitmapA
         }
 
         seatContainer.addChild(sh);
+
+        if(waitingLabel && waitingLabel.parent === seatContainer){
+          seatContainer.removeChild(waitingLabel);
+          waitingLabel.destroy();
+        }
       })
     });
 
-    seatContainer.cacheAsBitmap = true;
-
-    seatContainer.on('added', ()=>{
-      console.log('[createSeats ] seat container ', seatContainer.width, seatContainer.height);
-      console.log('[createSeats ] stage ', pixiapp.stage.width, pixiapp.stage.height);
-    });
-
-    return seatContainer;
   }
 
-  pixiapp.stage.addChild(createSeats());
+  pixiapp.stage.addChild(seatContainer);
 
   return {
     destroy(){

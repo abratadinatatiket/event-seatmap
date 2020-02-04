@@ -1,10 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
-import SeatMap from './SeatMap';
-
-import seatCfg from './seats-1500.json';
-
 import Modal from '@material-ui/core/Modal';
+
+import SeatMap from './SeatMap';
+import seatCfg from './seats-10k.json';
 
 import './index.scss';
 
