@@ -9,9 +9,6 @@ const SEAT_WIDTH = 38;
 const SEAT_HEIGHT = 38;
 const SEAT_SPACE = 8;
 
-const RESERVED_COLOR = '0xf15c59';
-const VACANT_COLOR = '0xffffff';
-
 const isVoid = function (obj) {
   return obj.status.toLowerCase() === 'void';
 };
@@ -19,57 +16,6 @@ const isVoid = function (obj) {
 const isReserved = function (obj) {
   return obj.status.toLowerCase() === 'reserved';
 };
-
-// draw seats using PIXI.Graphics
-function drawGraphics(obj) {
-
-  let bg, alpha;
-  if (!isVoid(obj)) {
-    bg = isReserved(obj) ? RESERVED_COLOR : VACANT_COLOR;
-    alpha = 1;
-  } else {
-    bg = 0;
-    alpha = 0;
-  }
-  const sh = new PIXI.Graphics();
-  sh.beginFill(parseInt(bg, 16), alpha);
-  sh.lineStyle(2, parseInt(bg, 16), alpha);
-  sh.drawRoundedRect(0, 0, SEAT_WIDTH, SEAT_HEIGHT, 4);
-  sh.endFill();
-
-  if (!isVoid(obj)) {
-
-    const label = new PIXI.Text(obj.code, {
-      fill: isReserved(obj) ? 0xffffff : 0x8a93a7,
-      fontSize: 12,
-      dropShadow: true,
-      dropShadowAlpha: .1,
-      dropShadowDistance: 0,
-      align: 'center'
-    });
-
-    label.position.set((SEAT_WIDTH - label.width) * 0.5, SEAT_HEIGHT - 24);
-    sh.addChild(label);
-
-    // seat back
-    const seatBottomShade = new PIXI.Graphics();
-
-    if (isReserved(obj)) {
-      seatBottomShade.beginFill(0xffffff, 0.5);
-    } else {
-      seatBottomShade.beginFill(0xc6cbda, 1);
-    }
-
-    seatBottomShade.drawRect(0, 0, 25, 8);
-    seatBottomShade.endFill();
-    seatBottomShade.position.set((SEAT_WIDTH - seatBottomShade.width) * 0.5, SEAT_HEIGHT - 8);
-    sh.addChild(seatBottomShade);
-
-    sh.cacheAsBitmap = true;
-  }
-
-  return sh;
-}
 
 /**
  * Draw seats using PIXI.Sprite & texture
@@ -113,7 +59,7 @@ function drawBitmaps(obj) {
 
 }
 
-export default function renderSeatMap(canvas, grid = [], onSeatClick, useBitmapAssets = true) {
+export default function renderSeatMap(canvas, grid = [], onSeatClick) {
 
   console.log('[renderSeatMap] ');
 
@@ -158,7 +104,7 @@ export default function renderSeatMap(canvas, grid = [], onSeatClick, useBitmapA
 
       row.forEach((obj, j) => {
 
-        const sh = useBitmapAssets ? drawBitmaps(obj) : drawGraphics(obj);
+        const sh = drawBitmaps(obj);
 
         if (!isVoid(obj) && !isReserved(obj)) {
           sh.buttonMode = true;
