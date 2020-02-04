@@ -18,15 +18,24 @@ const SeatMap = props => {
 
   return (
       <div className="seatmap">
-        <canvas ref={canvasRef}/>
+        <div className="stage">{props.stageLabel}</div>
+        <div className="canvas-container">
+          <canvas ref={canvasRef}/>
+        </div>
       </div>
   )
 };
 
-SeatMap.defaultProps = {};
+SeatMap.defaultProps = {
+  stageLabel: 'STAGE'
+};
 
 SeatMap.propTypes = {
-  config: PropTypes.array,
+  stageLabel: PropTypes.string,
+  config: PropTypes.arrayOf(PropTypes.shape({
+    code: PropTypes.string,
+    status: PropTypes.string.isRequired
+  })).isRequired,
   onSeatClick: PropTypes.func.isRequired
 };
 
