@@ -16,7 +16,8 @@ const SeatMap = props => {
       onSelectionChange: function(data){
         setSelection(data);
         props.onSelectionChange(data);
-      }
+      },
+      preselected: props.preselectedSeats
     });
 
     return function(){
@@ -35,13 +36,15 @@ const SeatMap = props => {
 };
 
 SeatMap.defaultProps = {
-  stageLabel: 'STAGE'
+  stageLabel: 'STAGE',
+  preselectedSeats: []
 };
 
 SeatMap.propTypes = {
   stageLabel: PropTypes.string,
   config: PropTypes.array.isRequired,
-  onSelectionChange: PropTypes.func.isRequired
+  onSelectionChange: PropTypes.func.isRequired,
+  preselectedSeats: PropTypes.arrayOf(PropTypes.string)
 };
 
 export default SeatMap;

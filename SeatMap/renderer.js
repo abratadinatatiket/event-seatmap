@@ -5,7 +5,7 @@ import VOID_BMP from './bitmaps/void.png';
 import RESERVED_BMP from  './bitmaps/reserved.png';
 import SELECTED_BMP from './bitmaps/selected.png';
 
-const bitmaps = {
+const BITMAPS = {
   vacant: VACANT_BMP,
   void: VOID_BMP,
   selected: SELECTED_BMP,
@@ -13,9 +13,9 @@ const bitmaps = {
 };
 
 const SEAT_LABEL_COLORS = {
-  VACANT: 0x8a93a7,
-  SELECTED: 0xffffff,
-  RESERVED: 0xffffff
+  vacant: 0x8a93a7,
+  selected: 0xffffff,
+  reserved: 0xffffff
 };
 
 const SEAT_WIDTH = 38;
@@ -47,41 +47,41 @@ const updateSeatLabel = function(sh, lbl, color){
   sh.label = label;
 };
 
+const updateSeatTexture = function(sh, texture){
+  sh.texture = PIXI.Texture.from(texture);
+};
+
 /**
  * Draw seats using PIXI.Sprite & texture
  */
-function drawBitmaps(obj) {
-
-  let bmpName = 'vacant';
-
-  if (isVoid(obj)) {
-    bmpName = 'void';
-  } else if (isReserved(obj)) {
-    bmpName = 'reserved';
-  }
+function drawBitmaps(obj, preselected = false) {
 
   const sh = new PIXI.Sprite();
   sh.width = SEAT_WIDTH;
   sh.height = SEAT_HEIGHT;
-  sh.texture = PIXI.Texture.from(bitmaps[bmpName]);
 
   if (!isVoid(obj)) {
-
-    updateSeatLabel(sh, obj.code, isReserved(obj) ? SEAT_LABEL_COLORS.RESERVED : SEAT_LABEL_COLORS.VACANT);
 
     if(!isReserved(obj)){
       sh.data = {
         code: obj.code,
-        selected: false
+        selected: preselected
       };
+      updateSeatTexture(sh, preselected ? BITMAPS.selected: BITMAPS.vacant);
+      updateSeatLabel(sh, obj.code, preselected ? SEAT_LABEL_COLORS.selected : SEAT_LABEL_COLORS.vacant);
+    }else{
+      updateSeatLabel(sh, obj.code, SEAT_LABEL_COLORS.reserved);
+      updateSeatTexture(sh, BITMAPS.reserved);
     }
+  }else{
+    updateSeatTexture(sh, BITMAPS.void);
   }
 
   return sh;
 
 }
 
-export default function renderSeatMap({canvas, grid = [], onSelectionChange, waitMessage}) {
+export default function renderSeatMap({canvas, grid = [], onSelectionChange, waitMessage, preselected = []}) {
 
   const selectedSeats = {};
 
@@ -128,7 +128,7 @@ export default function renderSeatMap({canvas, grid = [], onSelectionChange, wai
 
       row.forEach((obj, j) => {
 
-        const sh = drawBitmaps(obj);
+        const sh = drawBitmaps(obj, preselected.indexOf(obj.code) > -1);
 
         if (!isVoid(obj) && !isReserved(obj)) {
           sh.buttonMode = true;
@@ -138,13 +138,13 @@ export default function renderSeatMap({canvas, grid = [], onSelectionChange, wai
 
             if(sh.data.selected){
               sh.data.selected = false;
-              sh.texture = PIXI.Texture.from(bitmaps['vacant']);
-              updateSeatLabel(sh, sh.data.code, SEAT_LABEL_COLORS.VACANT);
+              updateSeatTexture(sh, BITMAPS.vacant);
+              updateSeatLabel(sh, sh.data.code, SEAT_LABEL_COLORS.vacant);
               delete selectedSeats[sh.data.code];
             }else{
               sh.data.selected = true;
-              sh.texture = PIXI.Texture.from(bitmaps['selected']);
-              updateSeatLabel(sh, sh.data.code, SEAT_LABEL_COLORS.SELECTED);
+              updateSeatTexture(sh, BITMAPS.selected);
+              updateSeatLabel(sh, sh.data.code, SEAT_LABEL_COLORS.selected);
               selectedSeats[sh.data.code] = true;
             }
 

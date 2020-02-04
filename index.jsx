@@ -23,6 +23,7 @@ function App(){
           <div className="seatmap-modal">
             <SeatMap
                 config={seatCfg}
+                preselectedSeats={selectedSeats}
                 onSelectionChange={(selection)=> {
                   setSelectedSeats(Object.keys(selection))
                 }}
