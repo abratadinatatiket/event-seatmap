@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import Modal from '@material-ui/core/Modal';
 
 import SeatMap from './SeatMap';
-import seatCfg from './seats-10k.json';
+import seatCfg from './seats-1500.json';
 
 import './index.scss';
 
