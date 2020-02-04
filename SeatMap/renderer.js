@@ -32,19 +32,21 @@ const isReserved = function (obj) {
 
 const updateSeatLabel = function(sh, lbl, color){
 
-  if(sh.label){
-    sh.removeChild(sh.label);
-  }
-
-  const label = new PIXI.Text(lbl, {
+  const ts = new PIXI.TextStyle({
     fill: color,
     fontSize: 12,
     align: 'center'
   });
 
-  label.position.set((SEAT_WIDTH - label.width) * 0.5, SEAT_HEIGHT - 24);
-  sh.addChild(label);
-  sh.label = label;
+  if(!sh.label){
+    const label = new PIXI.Text(lbl, ts);
+    label.position.set((SEAT_WIDTH - label.width) * 0.5, SEAT_HEIGHT - 24);
+    sh.addChild(label);
+    sh.label = label;
+  }else{
+    sh.label.style = ts;
+  }
+
 };
 
 const updateSeatTexture = function(sh, texture){
