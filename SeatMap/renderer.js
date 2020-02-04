@@ -27,7 +27,7 @@ const isVoid = function (obj) {
 };
 
 const isReserved = function (obj) {
-  return obj.status.toLowerCase() === 'reserved';
+  return obj.status.toLowerCase() !== 'void' && obj.status.toLowerCase() !== 'vacant';
 };
 
 const updateSeatLabel = function(sh, lbl, color){
