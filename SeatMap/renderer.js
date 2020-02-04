@@ -59,7 +59,7 @@ function drawBitmaps(obj) {
 
 }
 
-export default function renderSeatMap(canvas, grid = [], onSeatClick) {
+export default function renderSeatMap({canvas, grid = [], onSeatClick, waitMessage}) {
 
   console.log('[renderSeatMap] ');
 
@@ -83,7 +83,7 @@ export default function renderSeatMap(canvas, grid = [], onSeatClick) {
   seatContainer.width = STAGE_WIDTH;
   seatContainer.height = STAGE_HEIGHT;
 
-  const waitingLabel = new PIXI.Text(`Generating ${COLS * ROWS} seats...`,{
+  const waitingLabel = new PIXI.Text(waitMessage || `Generating ${COLS * ROWS} seats...`,{
     fill: PIXI.utils.string2hex('#aaaaaa'),
     fontSize: 12,
     align: 'center'

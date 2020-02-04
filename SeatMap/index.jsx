@@ -9,7 +9,11 @@ const SeatMap = props => {
   const canvasRef = React.useRef(null);
 
   React.useLayoutEffect(()=>{
-    let r = renderSeatMap(canvasRef.current, props.config, props.onSeatClick);
+    let r = renderSeatMap({
+      canvas: canvasRef.current,
+      grid: props.config,
+      onSeatClick: props.onSeatClick
+    });
 
     return function(){
       r.destroy();
