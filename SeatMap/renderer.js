@@ -178,6 +178,14 @@ export default function renderSeatMap(canvas, grid = [], onSeatClick, useBitmapA
     return seatContainer;
   }
 
-  pixiapp.stage.addChild(createSeats())
+  pixiapp.stage.addChild(createSeats());
+
+  pixiapp.stage.on('removed', ()=>{
+    pixiapp.destroy( false, {
+      children: true,
+      texture: true,
+      baseTexture: true
+    })
+  })
 
 };
