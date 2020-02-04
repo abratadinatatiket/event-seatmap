@@ -10,16 +10,22 @@ import './index.scss';
 function App(){
 
   const [showMap, setShowMap] = React.useState(false);
+  const [selectedSeats, setSelectedSeats ] = React.useState([]);
 
   return (
       <div className="app">
+
+        <div>Selected seats: {selectedSeats.join(',')}</div>
+
         <button onClick={()=>{ setShowMap(true) }}>Show Map</button>
 
         <Modal open={showMap}>
           <div className="seatmap-modal">
             <SeatMap
                 config={seatCfg}
-                onSelectionChange={(selection)=> { alert(JSON.stringify(selection))}}
+                onSelectionChange={(selection)=> {
+                  setSelectedSeats(Object.keys(selection))
+                }}
             />
             <button onClick={()=>{ setShowMap(false) }}>Close Map</button>
           </div>
