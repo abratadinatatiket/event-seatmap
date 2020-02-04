@@ -85,6 +85,12 @@ export default function renderSeatMap({canvas, grid = [], onSelectionChange, wai
 
   const selectedSeats = {};
 
+  if(preselected.length > 0){
+    preselected.forEach(s=>{
+      selectedSeats[s] = true;
+    })
+  }
+
   console.log('[renderSeatMap] ');
 
   // to avoid blurry text & lines
