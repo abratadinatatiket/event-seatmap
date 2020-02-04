@@ -7,18 +7,22 @@ import './styles.scss';
 const SeatMap = props => {
 
   const canvasRef = React.useRef(null);
+  const [selection, setSelection] = React.useState(null);
 
   React.useLayoutEffect(()=>{
     let r = renderSeatMap({
       canvas: canvasRef.current,
       grid: props.config,
-      onSeatClick: props.onSeatClick
+      onSelectionChange: function(data){
+        setSelection(data);
+        props.onSelectionChange(data);
+      }
     });
 
     return function(){
       r.destroy();
     }
-  },[canvasRef.current, props.config]);
+  },[]);
 
   return (
       <div className="seatmap">
@@ -36,11 +40,8 @@ SeatMap.defaultProps = {
 
 SeatMap.propTypes = {
   stageLabel: PropTypes.string,
-  config: PropTypes.arrayOf(PropTypes.shape({
-    code: PropTypes.string,
-    status: PropTypes.string.isRequired
-  })).isRequired,
-  onSeatClick: PropTypes.func.isRequired
+  config: PropTypes.array.isRequired,
+  onSelectionChange: PropTypes.func.isRequired
 };
 
 export default SeatMap;

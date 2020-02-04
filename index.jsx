@@ -19,7 +19,7 @@ function App(){
           <div className="seatmap-modal">
             <SeatMap
                 config={seatCfg}
-                onSeatClick={(obj)=> { alert(JSON.stringify(obj))}}
+                onSelectionChange={(selection)=> { alert(JSON.stringify(selection))}}
             />
             <button onClick={()=>{ setShowMap(false) }}>Close Map</button>
           </div>
