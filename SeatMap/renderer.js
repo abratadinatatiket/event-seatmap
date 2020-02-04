@@ -182,8 +182,11 @@ export default function renderSeatMap(canvas, grid = [], onSeatClick, useBitmapA
 
   return {
     destroy(){
+      console.log('[seatMapRenderer] destroy');
       pixiapp.destroy(false, {
-        children: true
+        children: true,
+        texture: true,
+        baseTexture: true
       })
     }
   }
