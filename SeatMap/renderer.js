@@ -35,11 +35,7 @@ const updateSeatLabel = function(sh, lbl, color){
   const ts = new PIXI.TextStyle({
     fill: color,
     fontSize: 12,
-    align: 'center',
-    // make it a little thicker
-    // on retina screen
-    stroke: 'black',
-    strokeThickness: 0.3
+    align: 'center'
   });
 
   if(!sh.label){

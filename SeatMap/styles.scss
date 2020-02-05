@@ -1,9 +1,21 @@
-.seatmap{
+.seatmap {
   position: relative;
   width: 720px;
   background: #f5f6fa;
   text-align: center;
   padding-bottom: 24px;
+
+  // https://github.com/pixijs/pixi.js/issues/621#issuecomment-187490884
+  canvas {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+  }
 
   .stage {
     width: 377px;
@@ -15,7 +27,7 @@
     line-height: 28px;
   }
 
-  .canvas-container{
+  .canvas-container {
     position: relative;
     overflow: auto;
     width: 720px;
