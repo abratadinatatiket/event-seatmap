@@ -1,11 +1,7 @@
-
-
 import VACANT_BMP from './bitmaps/vacant.png';
 import VOID_BMP from './bitmaps/void.png';
 import RESERVED_BMP from  './bitmaps/reserved.png';
 import SELECTED_BMP from './bitmaps/selected.png';
-
-
 
 export default function renderSeatMap({canvas, grid = [], onSelectionChange, waitMessage, preselected = []}) {
 
