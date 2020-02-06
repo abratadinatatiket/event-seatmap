@@ -21,7 +21,9 @@ const SeatMap = props => {
     });
 
     return function(){
-      r.destroy();
+      if(window.seatmapRenderer){
+        window.seatmapRenderer.destroy();
+      }
     }
   },[]);
 
