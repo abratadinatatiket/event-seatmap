@@ -12,6 +12,7 @@ const SeatMap = props => {
   React.useLayoutEffect(()=>{
     let r = renderSeatMap({
       canvas: canvasRef.current,
+      maxCount: props.maxCount,
       grid: props.config,
       onSelectionChange: function(data){
         setSelection(data);

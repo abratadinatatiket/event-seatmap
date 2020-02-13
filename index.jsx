@@ -22,6 +22,7 @@ function App(){
         <Modal open={showMap}>
           <div className="seatmap-modal">
             <SeatMap
+                maxCount={2}
                 config={seatCfg}
                 preselectedSeats={selectedSeats}
                 onSelectionChange={(selection)=> {

@@ -3,7 +3,7 @@ import VOID_BMP from './bitmaps/void.png';
 import RESERVED_BMP from  './bitmaps/reserved.png';
 import SELECTED_BMP from './bitmaps/selected.png';
 
-export default function renderSeatMap({canvas, grid = [], onSelectionChange, waitMessage, preselected = []}) {
+export default function renderSeatMap({canvas, grid = [], onSelectionChange, waitMessage, preselected = [], maxCount = 0}) {
 
   const selectedSeats = {};
 
@@ -151,10 +151,17 @@ export default function renderSeatMap({canvas, grid = [], onSelectionChange, wai
                 updateSeatLabel(sh, sh.data.code, SEAT_LABEL_COLORS.vacant);
                 delete selectedSeats[sh.data.code];
               }else{
+
+                if(maxCount > 0 && Object.keys(selectedSeats).length === maxCount){
+                  console.log('[renderer ] max count reached');
+                  return;
+                }
+
                 sh.data.selected = true;
                 updateSeatTexture(sh, BITMAPS.selected);
                 updateSeatLabel(sh, sh.data.code, SEAT_LABEL_COLORS.selected);
                 selectedSeats[sh.data.code] = true;
+
               }
 
               onSelectionChange(selectedSeats);
